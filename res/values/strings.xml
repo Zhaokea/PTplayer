@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">葡萄播放器</string>
+     <string name="dialog_messenge">你确定要离开我吗？</string>
+	<string name="about_title">说明</string>
+  
+	 <string name="skin_settings">皮肤设置</string>
+	  <string name="menu_exit_txt">退出</string>
+    <string name="oftenuse">常用</string>
+    <string name="cancel">取消</string>
+    <string  name="confrim">确定</string>
+        <string name="back_message">反馈</string>
+    <string name="info">亲爱的:</string>
+    <string name="menu_time_txt">甩甩暂停</string>
+    <string name="menu_time_txt1">甩甩切歌</string>
+    <string name="default_title_name">欢迎加入葡萄播放器</string>  
+ 	<string name="about_title_name">关于葡萄播放器</string>
+ 		<string name="about_content">
+	葡萄播放器\n
+	版本号:PT1.0.0\n\n
+	
+	主要功能：\n\n
+	1、新增个性换肤功能\n
+	2、新增两种趣味甩歌功能：甩一甩暂停和甩一甩切歌\n
+	3、新增一键退出功能\n
+	4、新增歌曲专辑照片展示功能\n
+	5、优化了UI设计\n
+	
+	温馨提示:\n
+	葡萄播放器为免费软件，在使用过程中不涉及网络流量，敬请放心使用。\n\n
+	由于开发者的知识和编写水平有限，开发过程中难免会有差错，欢迎各位使用者惠予批评指正。\n
+	谢谢您的使用！
+ 	</string>  
+    
+    
+</resources>

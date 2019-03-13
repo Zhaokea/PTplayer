@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.genius.demo"
+      android:versionCode="1"
+      android:versionName="1.0">
+ <uses-permission android:name="android.permission.INTERNET"></uses-permission> 
+<!-- 网络权限 -->
+<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+<!-- 震动权限 -->
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    
+    
+        <activity android:name=".MusicPlayActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name=".function1Activity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+         <activity android:name=".function3Activity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+         <activity android:name=".function4Activity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity android:name=".function2Activity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+         <activity
+              android:name=".SkinSettingActivity"
+               android:theme="@android:style/Theme.Light.NoTitleBar" 
+               android:screenOrientation="portrait">
+               </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"
+            android:name=".WelcomActivity" >
+           
+        </activity>
+         <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name=".SendMessage" >
+        </activity>
+        
+         
+         
+                 <activity
+            android:name="com.example.sqdance.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+     
+       
+       
+         <activity android:name="com.grape.videoplayer.VideoPlayerActivity"  
+                  android:label="@string/app_name"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar"> 
+           
+            <intent-filter>  
+            	<action android:name="android.intent.action.VIEW"/> 
+          		<data android:mimeType="video/*"/>   
+          		<category android:name="android.intent.category.DEFAULT"/> 
+            </intent-filter>
+            
+        </activity>
+        
+        <activity 	android:name="com.grape.videoplayer.VideoChooseActivity"
+        			android:label=""
+        			android:theme="@android:style/Theme.Dialog"
+        >
+        
+        </activity>
+         
+         
+         
+         
+         
+        <service android:name = "com.genius.service.MusicService">
+        	<intent-filter>
+        		<action android:name = "com.genius.service.musicservices"/>
+        	</intent-filter>
+        </service>
+
+    </application>
+   
+</manifest>

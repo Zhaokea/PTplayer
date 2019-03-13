@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="divider_color">#ff888888</color>
+	<color name="listview_background">#00000000</color>
+	 <color name="menu_bg_focus">#C8000000</color>
+    <color name="menu_bg_normal">#FF666666</color>
+     <color name="translucence">#b0000000</color>
+         <color name="dialog_line">#8F999999</color>
+         <color name="background">#FF000000</color>
+         <color name="control_back">#AA00003D</color>
+</resources>

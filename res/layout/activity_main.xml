@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picture02"
+
+    tools:context=".MainActivity" >
+
+   
+	<Button
+	    android:id="@+id/button22"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignRight="@+id/button11"
+	    android:background="@drawable/planet01"
+	    android:text="    视频"
+	    android:textSize="30dip" />
+
+	<Button
+	    android:id="@+id/button11"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/button22"
+	    android:background="@drawable/planet02"
+	    android:text="    音频"
+	    android:textSize="30dip" />
+ 
+<Button
+    android:id="@+id/button33"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+     android:background="@drawable/picture01"
+    android:text="葡萄播放器"
+    android:textColor="#FFFFFE"
+    android:textSize="25dip" />
+
+</RelativeLayout>
